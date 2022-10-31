@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
-import Dance from './Dance'
+import Dance from '../public/Dance'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
