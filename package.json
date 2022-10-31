@@ -1,5 +1,6 @@
 {
   "name": "testing",
+  "homepage": "https://josesantana.tech",
   "version": "0.1.0",
   "private": true,
   "scripts": {
