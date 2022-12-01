@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+    opacity: 70%;
+}
+
+.title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1vw;
+}
+
+.subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8vw;
+    padding-bottom: 0.5vw;
+}
+.text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+.close {
+    cursor: pointer;
+    margin-left: 22vw;
+}
+
+.modal {
+    width: 25vw;
+    height: 20vw;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 2%;
+    padding: 1vw;
+    position: fixed;
+    left: 36.75vw;
+    top: 12vw;
+}
+.link {
+    text-decoration: underline;
+    color: blue;
+}

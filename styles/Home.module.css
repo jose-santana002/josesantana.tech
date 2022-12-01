@@ -1,14 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-.canvas {
-  width: 50vw;
-  height: 50vh;
-  margin: auto;
+
+.homeContainerOne {
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+  margin-top: 6vw;
+  margin-left: 12vw;
+}
+
+.helloCanvas {
+  width: 25vw;
+  height: 60vw;
 }
 
 .title {
   text-align: center;
-  font-family: 'Varela Round', sans-serif;
-  margin-top: 10vh;
-  margin-bottom: 5vh;
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  font-size: 2vw;
+  width: 50vw;
+  padding-top: 8vw;
+}
+
+.scrollText {
+  position: absolute;
+  top: 42vw;
+  left: 45vw;
+  opacity: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+  animation: fadein 5s forwards;
+  animation-delay: 5s;
+}
+
+.downArrow {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+  border-top: 0.5vw solid #000;
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0.8vw, 0);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0.8vw, 0);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0.8vw, 0);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 70%;
+  }
+}
+
+.homeContainerTwo {
+  text-align: center;
+  width: 50vw;
+  position: absolute;
+  top: 60vw;
+  left: 24vw;
+}
+
+.homeContainerThree {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  top: 85vw;
+  left: 15vw;
+}
+
+.deskCanvas {
+  width: 35vw;
+  height: 40vw;
+  transform: scaleX(-1);
+  margin-top: -8vw;
+}
+
+.deskTextContainer {
+  width: 45vw;
+  margin-top: 3vw;
+}
+
+.subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  font-size: 1.5vw;
+}
+
+.text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+}
+
+.homeContainerFour{
+  width: 75vw;
+  margin: auto;
+  position: absolute;
+  top: 110vw;
+  left: 12vw;
+  text-align: center;
+}
+
+.certifications {
+  width: 8vw;
+  height: 8vw;
+  margin-top: 3vw;
+  margin-right: 3vw;
+}
+
+.footerContainer {
+  position: absolute;
+  width: 75vw;
+  top: 135vw;
+  left: 12vw;
+  margin: auto;
+  text-align: center;
+}
+
+.subtext{
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8vw;
+}
+
+.footerIcons {
+  width: 1vw;
+  height: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1.5vw;
+}
+
+.credits {
+  position: absolute;
+  left: 70vw;
+  top: 1vw;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8vw;
+  cursor: pointer;
 }
