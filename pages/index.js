@@ -62,8 +62,8 @@ export default class Home extends React.Component {
           <div className={styles.homeContainerThree}>
             <div className={styles.deskTextContainer}>
               <h2 className={styles.subtitle}>Securing the web by day so you can sleep at night.</h2>
-              <p className={styles.text}>Much like the little guy to your right, I'm always on my computer trying to
-                learn something new and expand my skillsets. When I'm not working or doing schoolwork, you will likely
+              <p className={styles.text}>Much like the little guy to your right, I&apos;m always on my computer trying to
+                learn something new and expand my skillsets. When I&apos;m not working or doing schoolwork, you will likely
                 find me writing code, practicing on CTFs, or trying to figure out the latest exploit & mitigation techniques. </p>
             </div>
             <div className={styles.deskCanvas}>
@@ -77,13 +77,13 @@ export default class Home extends React.Component {
             </div>
           </div>
           <div className={styles.homeContainerFour}>
-            <h2 className={styles.subtitle}>Trust me, I'm certified.</h2>
-            <p className={styles.text}>I've had a ton of fun earning these certifications. More on the way soon!</p>
-            <a href="./ITILv4.pdf" target="_blank"><Image src="/itil4.png" width="200" height="200" alt="ITILv4 Foundations" className={styles.certifications} /></a>
-            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/R7ZAKYBKARHG" target="_blank"><Image src="/googleit.png" width="200" height="200" alt="Google IT Support Professional" className={styles.certifications} /></a>
-            <a href="https://badgr.com/public/assertions/44_E8-JATAOFlOffZkF8mw?identity__email=santanajcr01@gmail.com" target="_blank"><Image src="/csulbcertification.png" width="200" height="200" alt="California State University, Long Beach Cybersecurity Professional Certificate" className={styles.certifications} /></a>
-            <a href="https://www.credly.com/badges/975a9728-5bbd-4a9c-bc3e-f1e805560e95?source=linked_in_profile" target="_blank"><Image src="/awsccp.png" width="200" height="200" alt="AWS Certified Cloud Practitioner" className={styles.certifications} /></a>
-            <a href="https://www.credly.com/badges/85b5c28e-8bf4-455b-9a7b-122ad65fe688/linked_in_profile" target="_blank"><Image src="/aplus.png" width="200" height="200" alt="CompTIA A+" className={styles.certifications} /></a>
+            <h2 className={styles.subtitle}>Trust me, I&apos;m certified.</h2>
+            <p className={styles.text}>I&apos;ve had a ton of fun earning these certifications. More on the way soon!</p>
+            <a href="./ITILv4.pdf" target="_blank" rel="noreferrer"><Image src="/itil4.png" width="200" height="200" alt="ITILv4 Foundations" className={styles.certifications} /></a>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/R7ZAKYBKARHG" target="_blank" rel="noreferrer"><Image src="/googleit.png" width="200" height="200" alt="Google IT Support Professional" className={styles.certifications} /></a>
+            <a href="https://badgr.com/public/assertions/44_E8-JATAOFlOffZkF8mw?identity__email=santanajcr01@gmail.com" target="_blank" rel="noreferrer"><Image src="/csulbcertification.png" width="200" height="200" alt="California State University, Long Beach Cybersecurity Professional Certificate" className={styles.certifications} /></a>
+            <a href="https://www.credly.com/badges/975a9728-5bbd-4a9c-bc3e-f1e805560e95?source=linked_in_profile" target="_blank" rel="noreferrer"><Image src="/awsccp.png" width="200" height="200" alt="AWS Certified Cloud Practitioner" className={styles.certifications} /></a>
+            <a href="https://www.credly.com/badges/85b5c28e-8bf4-455b-9a7b-122ad65fe688/linked_in_profile" target="_blank" rel="noreferrer"><Image src="/aplus.png" width="200" height="200" alt="CompTIA A+" className={styles.certifications} /></a>
           </div>
           <div className={styles.footerContainer}>
             <div>
